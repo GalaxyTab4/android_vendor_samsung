@@ -17,9 +17,9 @@ LOCAL_PATH := $(call my-dir)
 ifneq ($(filter degaswifi,$(TARGET_DEVICE)),)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libMarvellWireless
+LOCAL_MODULE := libGAL
 LOCAL_MODULE_OWNER := marvell
-LOCAL_SRC_FILES := proprietary/lib/libMarvellWireless.so
+LOCAL_SRC_FILES := proprietary/lib/libGAL.so
 LOCAL_MODULE_PATH := $(TARGET_OUT_VENDOR_SHARED_LIBRARIES)
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_SUFFIX := .so
@@ -27,3 +27,5 @@ LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 include $(BUILD_PREBUILT)
 
 endif
+
+
