@@ -28,7 +28,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/degaswifi/proprietary/bin/eeh:system/bin/eeh \
     vendor/samsung/degaswifi/proprietary/bin/emmc_fsck:system/bin/emmc_fsck \
     vendor/samsung/degaswifi/proprietary/bin/exit_composite.sh:system/bin/exit_composite.sh \
-    vendor/samsung/degaswifi/proprietary/bin/fsck.exfat:system/bin/fsck.exfat \
     vendor/samsung/degaswifi/proprietary/bin/hw.sh:system/bin/hw.sh \
     vendor/samsung/degaswifi/proprietary/bin/hwacc:system/bin/hwacc \
     vendor/samsung/degaswifi/proprietary/bin/load_prod_8787.sh:system/bin/load_prod_8787.sh \
@@ -115,8 +114,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/degaswifi/proprietary/lib/hw/audio_path.voip.mrvl.so:system/lib/hw/audio_path.voip.mrvl.so \
     vendor/samsung/degaswifi/proprietary/lib/hw/audio_path.vt.mrvl.so:system/lib/hw/audio_path.vt.mrvl.so \
     vendor/samsung/degaswifi/proprietary/lib/hw/audio_policy.mrvl.so:system/lib/hw/audio_policy.mrvl.so \
-    vendor/samsung/degaswifi/proprietary/lib/hw/camera.mrvl.so:system/lib/hw/camera.mrvl.so \
-    vendor/samsung/degaswifi/proprietary/lib/hw/consumerir.mrvl.so:system/lib/hw/consumerir.mrvl.so \
     vendor/samsung/degaswifi/proprietary/lib/hw/gralloc.mrvl.so:system/lib/hw/gralloc.mrvl.so \
     vendor/samsung/degaswifi/proprietary/lib/hw/hwcomposer.mrvl.so:system/lib/hw/hwcomposer.mrvl.so \
     vendor/samsung/degaswifi/proprietary/lib/hw/power.mrvl.so:system/lib/hw/power.mrvl.so \
@@ -131,7 +128,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/degaswifi/proprietary/lib/libgcu.so:system/lib/libgcu.so \
     vendor/samsung/degaswifi/proprietary/lib/libgpucsc.so:system/lib/libgpucsc.so \
     vendor/samsung/degaswifi/proprietary/lib/libgputex.so:system/lib/libgputex.so \
-    vendor/samsung/degaswifi/proprietary/lib/libionhelper.so:system/lib/libionhelper.so \
     vendor/samsung/degaswifi/proprietary/lib/libmarvell-ril.so:system/lib/libmarvell-ril.so \
     vendor/samsung/degaswifi/proprietary/lib/libphycontmem.so:system/lib/libphycontmem.so \
     vendor/samsung/degaswifi/proprietary/lib/libsamsungSoundbooster.so:system/lib/libsamsungSoundbooster.so \
@@ -151,8 +147,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/degaswifi/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/samsung/degaswifi/proprietary/vendor/media/LMspeed_508.emd:system/vendor/media/LMspeed_508.emd \
     vendor/samsung/degaswifi/proprietary/vendor/media/PFFprec_600.emd:system/vendor/media/PFFprec_600.emd \
-    vendor/samsung/degaswifi/proprietary/bin/MarvellWirelessDaemon:system/bin/MarvellWirelessDaemon \
-    vendor/samsung/degaswifi/proprietary/bin/at_distributor:system/bin/at_distributor \
     vendor/samsung/degaswifi/proprietary/bin/backup_log.sh:system/bin/backup_log.sh \
     vendor/samsung/degaswifi/proprietary/bin/createsystemfile:system/bin/createsystemfile \
     vendor/samsung/degaswifi/proprietary/bin/diag:system/bin/diag \
@@ -318,7 +312,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/degaswifi/proprietary/lib/libedmnativehelper.so:system/lib/libedmnativehelper.so \
     vendor/samsung/degaswifi/proprietary/lib/libedmnativehelperservice.so:system/lib/libedmnativehelperservice.so \
     vendor/samsung/degaswifi/proprietary/lib/libescpr.so:system/lib/libescpr.so \
-    vendor/samsung/degaswifi/proprietary/lib/libexfat_utils.so:system/lib/libexfat_utils.so \
     vendor/samsung/degaswifi/proprietary/lib/libexif_jni.so:system/lib/libexif_jni.so \
     vendor/samsung/degaswifi/proprietary/lib/libexifa.so:system/lib/libexifa.so \
     vendor/samsung/degaswifi/proprietary/lib/libext2_quota.so:system/lib/libext2_quota.so \
@@ -390,7 +383,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/degaswifi/proprietary/lib/libmtelif.so:system/lib/libmtelif.so \
     vendor/samsung/degaswifi/proprietary/lib/libmtp_samsung.so:system/lib/libmtp_samsung.so \
     vendor/samsung/degaswifi/proprietary/lib/libmtp_samsung_jni.so:system/lib/libmtp_samsung_jni.so \
-    vendor/samsung/degaswifi/proprietary/lib/libmvmem.so:system/lib/libmvmem.so \
     vendor/samsung/degaswifi/proprietary/lib/libmysound.so:system/lib/libmysound.so \
     vendor/samsung/degaswifi/proprietary/lib/libndk1.so:system/lib/libndk1.so \
     vendor/samsung/degaswifi/proprietary/lib/libnetjni.so:system/lib/libnetjni.so \
@@ -508,5 +500,24 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/degaswifi/proprietary/lib/libvwengine.so:system/lib/libvwengine.so \
     vendor/samsung/degaswifi/proprietary/lib/libwebp_android.so:system/lib/libwebp_android.so \
     vendor/samsung/degaswifi/proprietary/lib/libwtpsp.so:system/lib/libwtpsp.so \
-    vendor/samsung/degaswifi/proprietary/lib/libwtpsp_ss.so:system/lib/libwtpsp_ss.so \
-    vendor/samsung/degaswifi/proprietary/lib/xlfcore.jar:system/lib/xlfcore.jar
+    vendor/samsung/degaswifi/proprietary/lib/libwtpsp_ss.so:system/lib/libwtpsp_ss.so 
+
+PRODUCT_COPY_FILES += \
+    vendor/samsung/degaswifi/proprietary/lib/libnetcmdiface.soo:system/lib/libnetcmdiface.so 
+
+PRODUCT_COPY_FILES += \
+    vendor/samsung/degaswifi/proprietary/lib/libion.so:system/lib/libion.so \
+    vendor/samsung/degaswifi/proprietary/lib/libionhelper.so:system/lib/libionhelper.so \
+    vendor/samsung/degaswifi/proprietary/lib/libmvmem.so:system/lib/libmvmem.so 
+
+
+#    vendor/samsung/degaswifi/proprietary/lib/xlfcore.jar:system/lib/xlfcore.jar
+#    vendor/samsung/degaswifi/proprietary/lib/hw/camera.mrvl.so:system/lib/hw/camera.mrvl.so \
+#    vendor/samsung/degaswifi/proprietary/lib/hw/consumerir.mrvl.so:system/lib/hw/consumerir.mrvl.so \
+#    vendor/samsung/degaswifi/proprietary/bin/MarvellWirelessDaemon:system/bin/MarvellWirelessDaemon \
+#    vendor/samsung/degaswifi/proprietary/bin/at_distributor:system/bin/at_distributor \
+#    vendor/samsung/degaswifi/proprietary/bin/fsck.exfat:system/bin/fsck.exfat \
+#    vendor/samsung/degaswifi/proprietary/lib/libexfat_utils.so:system/lib/libexfat_utils.so \
+
+
+
