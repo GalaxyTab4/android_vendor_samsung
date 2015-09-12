@@ -503,13 +503,13 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/degaswifi/proprietary/lib/libwtpsp_ss.so:system/lib/libwtpsp_ss.so 
 
 PRODUCT_COPY_FILES += \
-    vendor/samsung/degaswifi/proprietary/lib/libnetcmdiface.soo:system/lib/libnetcmdiface.so 
+    vendor/samsung/degaswifi/proprietary/lib/libnetcmdiface.so:system/lib/libnetcmdiface.so 
 
 PRODUCT_COPY_FILES += \
-    vendor/samsung/degaswifi/proprietary/lib/libion.so:system/lib/libion.so \
     vendor/samsung/degaswifi/proprietary/lib/libionhelper.so:system/lib/libionhelper.so \
     vendor/samsung/degaswifi/proprietary/lib/libmvmem.so:system/lib/libmvmem.so 
 
+#    vendor/samsung/degaswifi/proprietary/lib/libion.so:system/lib/libion.so \
 
 #    vendor/samsung/degaswifi/proprietary/lib/xlfcore.jar:system/lib/xlfcore.jar
 #    vendor/samsung/degaswifi/proprietary/lib/hw/camera.mrvl.so:system/lib/hw/camera.mrvl.so \
