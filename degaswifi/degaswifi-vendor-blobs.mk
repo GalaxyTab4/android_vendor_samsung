@@ -165,7 +165,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/degaswifi/proprietary/system/lib/libgpucsc.so:system/lib/libgpucsc.so \
     vendor/samsung/degaswifi/proprietary/system/lib/libgputex.so:system/lib/libgputex.so \
     vendor/samsung/degaswifi/proprietary/system/lib/libHWComposerGC.so:system/lib/libHWComposerGC.so \
-    vendor/samsung/degaswifi/proprietary/system/lib/libion:system/lib/libion \
+    vendor/samsung/degaswifi/proprietary/system/lib/libion.so:system/lib/libion.so \
     vendor/samsung/degaswifi/proprietary/system/lib/libionhelper.so:system/lib/libionhelper.so \
     vendor/samsung/degaswifi/proprietary/system/lib/libippimgp.so:system/lib/libippimgp.so \
     vendor/samsung/degaswifi/proprietary/system/lib/libippsp.so:system/lib/libippsp.so \
