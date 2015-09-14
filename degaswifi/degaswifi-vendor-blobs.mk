@@ -226,3 +226,12 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/degaswifi/proprietary/system/usr/share/alsa/pcm/surround71.conf:system/usr/share/alsa/pcm/surround71.conf \
     vendor/samsung/degaswifi/proprietary/system/usr/share/alsa/alsa.conf:system/usr/share/alsa/alsa.conf \
     vendor/samsung/degaswifi/proprietary/system/vendor/lib/hw/lights.mrvl.so:system/vendor/lib/hw/lights.mrvl.so
+
+# CAMERA
+PRODUCT_COPY_FILES += \
+    vendor/samsung/degaswifi/proprietary/system/lib/libcameraservice.so:system/lib/libcameraservice.so \
+    vendor/samsung/degaswifi/proprietary/system/lib/libmvmem.so:system/lib/libmvmem.so \
+
+# HW
+PRODUCT_COPY_FILES += \
+    vendor/samsung/degaswifi/proprietary/system/vendor/lib/hw/hwcomposer.mrvl.so:system/vendor/lib/hw/hwcomposer.mrvl.so
