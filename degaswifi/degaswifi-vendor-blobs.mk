@@ -165,7 +165,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/degaswifi/proprietary/system/lib/libgpucsc.so:system/lib/libgpucsc.so \
     vendor/samsung/degaswifi/proprietary/system/lib/libgputex.so:system/lib/libgputex.so \
     vendor/samsung/degaswifi/proprietary/system/lib/libHWComposerGC.so:system/lib/libHWComposerGC.so \
-    vendor/samsung/degaswifi/proprietary/system/lib/libion.so:system/lib/libion.so \
     vendor/samsung/degaswifi/proprietary/system/lib/libionhelper.so:system/lib/libionhelper.so \
     vendor/samsung/degaswifi/proprietary/system/lib/libippimgp.so:system/lib/libippimgp.so \
     vendor/samsung/degaswifi/proprietary/system/lib/libippsp.so:system/lib/libippsp.so \
@@ -198,7 +197,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/degaswifi/proprietary/system/lib/libwvdrm_L3.so:system/lib/libwvdrm_L3.so \
     vendor/samsung/degaswifi/proprietary/system/lib/libwvm.so:system/lib/libwvm.so \
     vendor/samsung/degaswifi/proprietary/system/lib/libWVStreamControlAPI_L3.so:system/lib/libWVStreamControlAPI_L3.so \
-    vendor/samsung/degaswifi/proprietary/system/lib/libxml2.so:system/lib/libxml2.so \
     vendor/samsung/degaswifi/proprietary/system/usr/idc/elan-ts.idc:system/usr/idc/elan-ts.idc \
     vendor/samsung/degaswifi/proprietary/system/usr/idc/ft5306-ts.idc:system/usr/idc/ft5306-ts.idc \
     vendor/samsung/degaswifi/proprietary/system/usr/keychars/pxa27x-keypad.kcm:system/usr/keychars/pxa27x-keypad.kcm \
@@ -235,3 +233,8 @@ PRODUCT_COPY_FILES += \
 # HW
 PRODUCT_COPY_FILES += \
     vendor/samsung/degaswifi/proprietary/system/lib/hw/hwcomposer.mrvl.so:system/lib/hw/hwcomposer.mrvl.so
+
+# BUILD FROM SOURCE
+#    vendor/samsung/degaswifi/proprietary/system/lib/libxml2.so:system/lib/libxml2.so \
+#    vendor/samsung/degaswifi/proprietary/system/lib/libion.so:system/lib/libion.so \
+
