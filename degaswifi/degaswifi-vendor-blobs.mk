@@ -199,7 +199,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/degaswifi/proprietary/system/usr/keychars/pxa27x-keypad.kcm:system/usr/keychars/pxa27x-keypad.kcm \
     vendor/samsung/degaswifi/proprietary/system/usr/keylayout/gpio-keys.kl:system/usr/keylayout/gpio-keys.kl \
     vendor/samsung/degaswifi/proprietary/system/usr/keylayout/pxa27x-keypad.kl:system/usr/keylayout/pxa27x-keypad.kl \
-    vendor/samsung/degaswifi/proprietary/system/usr/keylayout/Vendor_04e8_Product_7021.kl:system/usr/keylayout/Vendor_04e8_Product_7021.kl \
+    vendor/samsung/degaswifi/proprietary/system/usr/keylayout/Vendor_04e8_Product_7021.kl:system/usr/keylayout/Vendor_04e8_Product_7021.kl 
 
 # ALSA
 PRODUCT_COPY_FILES += \
@@ -231,18 +231,19 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/degaswifi/proprietary/system/lib/egl/libGLESv2_MRVL.so:system/lib/egl/libGLESv2_MRVL.so \
     vendor/samsung/degaswifi/proprietary/system/lib/libgcu.so:system/lib/libgcu.so \
     vendor/samsung/degaswifi/proprietary/system/lib/libGLESv2SC.so:system/lib/libGLESv2SC.so \
+    vendor/samsung/degaswifi/proprietary/system/lib/libGAL.so:system/vendor/lib/libGAL.so
 
 # CAMERA
 PRODUCT_COPY_FILES += \
     vendor/samsung/degaswifi/proprietary/system/lib/libcameraservice.so:system/lib/libcameraservice.so \
-    vendor/samsung/degaswifi/proprietary/system/lib/libmvmem.so:system/lib/libmvmem.so \
+    vendor/samsung/degaswifi/proprietary/system/lib/libmvmem.so:system/lib/libmvmem.so 
 
 
 
 # BUILD FROM SOURCE BACKUP
 PRODUCT_COPY_FILES += \
     vendor/samsung/degaswifi/proprietary/prebuilt/libion.so:system/lib/libion.so \
-    vendor/samsung/degaswifi/proprietary/prebuilt/libHWComposerGC.so:system/lib/libHWComposerGC.so \
-    vendor/samsung/degaswifi/proprietary/prebuilt/libGAL.so:system/vendor/lib/libGAL.so
+    vendor/samsung/degaswifi/proprietary/prebuilt/libHWComposerGC.so:system/lib/libHWComposerGC.so 
+
 
 #    vendor/samsung/degaswifi/proprietary/prebuilt/lib/libxml2.so:system/lib/libxml2.so \
