@@ -239,9 +239,10 @@ PRODUCT_COPY_FILES += \
 
 
 
-# BUILD FROM SOURCE
-#    vendor/samsung/degaswifi/proprietary/system/lib/libxml2.so:system/lib/libxml2.so \
-#    vendor/samsung/degaswifi/proprietary/system/lib/libion.so:system/lib/libion.so \
-#    vendor/samsung/degaswifi/proprietary/system/lib/libHWComposerGC.so:system/lib/libHWComposerGC.so \
-#    vendor/samsung/degaswifi/proprietary/system/lib/libGAL.so:system/lib/libGAL.so - BUILD IN VENDOR_LIB
+# BUILD FROM SOURCE BACKUP
+PRODUCT_COPY_FILES += \
+    vendor/samsung/degaswifi/proprietary/prebuilt/libion.so:system/lib/libion.so \
+    vendor/samsung/degaswifi/proprietary/prebuilt/libHWComposerGC.so:system/lib/libHWComposerGC.so \
+    vendor/samsung/degaswifi/proprietary/prebuilt/libGAL.so:system/vendor/lib/libGAL.so
 
+#    vendor/samsung/degaswifi/proprietary/prebuilt/lib/libxml2.so:system/lib/libxml2.so \
