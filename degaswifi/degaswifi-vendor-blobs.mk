@@ -231,7 +231,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/degaswifi/proprietary/system/lib/egl/libGLESv2_MRVL.so:system/lib/egl/libGLESv2_MRVL.so \
     vendor/samsung/degaswifi/proprietary/system/lib/libgcu.so:system/lib/libgcu.so \
     vendor/samsung/degaswifi/proprietary/system/lib/libGLESv2SC.so:system/lib/libGLESv2SC.so \
-    vendor/samsung/degaswifi/proprietary/system/lib/libGAL.so:system/vendor/lib/libGAL.so
+    vendor/samsung/degaswifi/proprietary/system/lib/libGAL.so:system/vendor/lib/libGAL.so \
+    vendor/samsung/degaswifi/proprietary/system/lib/libion.so:system/lib/libion.so
 
 # CAMERA
 PRODUCT_COPY_FILES += \
@@ -242,8 +243,7 @@ PRODUCT_COPY_FILES += \
 
 # BUILD FROM SOURCE BACKUP
 PRODUCT_COPY_FILES += \
-    vendor/samsung/degaswifi/proprietary/prebuilt/libion.so:system/lib/libion.so \
     vendor/samsung/degaswifi/proprietary/prebuilt/libHWComposerGC.so:system/lib/libHWComposerGC.so 
 
-
+#    vendor/samsung/degaswifi/proprietary/prebuilt/libion.so:system/lib/libion.so -> breaks hw powerbtn function, slow down system, going back to stock
 #    vendor/samsung/degaswifi/proprietary/prebuilt/lib/libxml2.so:system/lib/libxml2.so \
