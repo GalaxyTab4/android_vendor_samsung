@@ -36,24 +36,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/samsung/degaswifi/proprietary/system/lib/drm/libdrmwvmplugin.so:system/lib/drm/libdrmwvmplugin.so 
 
-# PERM
-PRODUCT_COPY_FILES += \
-    vendor/samsung/degaswifi/proprietary/system/etc/permissions/android.hardware.bluetooth_le.xml:system/etc/permissions/android.hardware.bluetooth_le.xml \
-    vendor/samsung/degaswifi/proprietary/system/etc/permissions/android.hardware.camera.front.xml:system/etc/permissions/android.hardware.camera.front.xml \
-    vendor/samsung/degaswifi/proprietary/system/etc/permissions/android.hardware.camera.xml:system/etc/permissions/android.hardware.camera.xml \
-    vendor/samsung/degaswifi/proprietary/system/etc/permissions/android.hardware.consumerir.xml:system/etc/permissions/android.hardware.consumerir.xml \
-    vendor/samsung/degaswifi/proprietary/system/etc/permissions/android.hardware.location.gps.xml:system/etc/permissions/android.hardware.location.gps.xml \
-    vendor/samsung/degaswifi/proprietary/system/etc/permissions/android.hardware.sensor.accelerometer.xml:system/etc/permissions/android.hardware.sensor.accelerometer.xml \
-    vendor/samsung/degaswifi/proprietary/system/etc/permissions/android.hardware.sensor.compass.xml:system/etc/permissions/android.hardware.sensor.compass.xml \
-    vendor/samsung/degaswifi/proprietary/system/etc/permissions/android.hardware.sensor.light.xml:system/etc/permissions/android.hardware.sensor.light.xml \
-    vendor/samsung/degaswifi/proprietary/system/etc/permissions/android.hardware.touchscreen.multitouch.jazzhand.xml:system/etc/permissions/android.hardware.touchscreen.multitouch.jazzhand.xml \
-    vendor/samsung/degaswifi/proprietary/system/etc/permissions/android.hardware.usb.accessory.xml:system/etc/permissions/android.hardware.usb.accessory.xml \
-    vendor/samsung/degaswifi/proprietary/system/etc/permissions/android.hardware.usb.host.xml:system/etc/permissions/android.hardware.usb.host.xml \
-    vendor/samsung/degaswifi/proprietary/system/etc/permissions/android.hardware.wifi.direct.xml:system/etc/permissions/android.hardware.wifi.direct.xml \
-    vendor/samsung/degaswifi/proprietary/system/etc/permissions/android.hardware.wifi.xml:system/etc/permissions/android.hardware.wifi.xml \
-    vendor/samsung/degaswifi/proprietary/system/etc/permissions/handheld_core_hardware.xml:system/etc/permissions/handheld_core_hardware.xml \
-    vendor/samsung/degaswifi/proprietary/system/etc/permissions/tablet_core_hardware.xml:system/etc/permissions/tablet_core_hardware.xml \
-
 # WIFI
 PRODUCT_COPY_FILES += \
     vendor/samsung/degaswifi/proprietary/system/etc/firmware/mrvl/SDIO8887_SDIO_SDIO.bin:system/etc/firmware/mrvl/SDIO8887_SDIO_SDIO.bin \
