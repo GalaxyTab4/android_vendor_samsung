@@ -104,9 +104,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/degaswifi/proprietary/system/etc/rom.bin:system/etc/rom.bin \
     vendor/samsung/degaswifi/proprietary/system/etc/sensor_config.xml:system/etc/sensor_config.xml \
     vendor/samsung/degaswifi/proprietary/system/lib/drm/libdrmwvmplugin.so:system/lib/drm/libdrmwvmplugin.so \
-    vendor/samsung/degaswifi/proprietary/system/lib/egl/libEGL_MRVL.so:system/lib/egl/libEGL_MRVL.so \
-    vendor/samsung/degaswifi/proprietary/system/lib/egl/libGLESv1_CM_MRVL.so:system/lib/egl/libGLESv1_CM_MRVL.so \
-    vendor/samsung/degaswifi/proprietary/system/lib/egl/libGLESv2_MRVL.so:system/lib/egl/libGLESv2_MRVL.so \
     vendor/samsung/degaswifi/proprietary/system/lib/hw/audio.primary.mrvl.so:system/lib/hw/audio.primary.mrvl.so \
     vendor/samsung/degaswifi/proprietary/system/lib/hw/audio.r_submix.default.so:system/lib/hw/audio.r_submix.default.so \
     vendor/samsung/degaswifi/proprietary/system/lib/hw/audio_path.adda.mrvl.so:system/lib/hw/audio_path.adda.mrvl.so \
@@ -223,6 +220,12 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/degaswifi/proprietary/system/usr/share/alsa/pcm/surround71.conf:system/usr/share/alsa/pcm/surround71.conf \
     vendor/samsung/degaswifi/proprietary/system/usr/share/alsa/alsa.conf:system/usr/share/alsa/alsa.conf \
     vendor/samsung/degaswifi/proprietary/system/vendor/lib/hw/lights.mrvl.so:system/vendor/lib/hw/lights.mrvl.so
+
+# EGL
+PRODUCT_COPY_FILES += \
+    vendor/samsung/degaswifi/proprietary/system/lib/egl/libEGL_MRVL.so:system/lib/egl/libEGL_MRVL.so \
+    vendor/samsung/degaswifi/proprietary/system/lib/egl/libGLESv1_CM_MRVL.so:system/lib/egl/libGLESv1_CM_MRVL.so \
+    vendor/samsung/degaswifi/proprietary/system/lib/egl/libGLESv2_MRVL.so:system/lib/egl/libGLESv2_MRVL.so
 
 # CAMERA
 PRODUCT_COPY_FILES += \
