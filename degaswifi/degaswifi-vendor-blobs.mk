@@ -234,4 +234,4 @@ PRODUCT_COPY_FILES += \
 
 # HW
 PRODUCT_COPY_FILES += \
-    vendor/samsung/degaswifi/proprietary/system/vendor/lib/hw/hwcomposer.mrvl.so:system/vendor/lib/hw/hwcomposer.mrvl.so
+    vendor/samsung/degaswifi/proprietary/system/lib/hw/hwcomposer.mrvl.so:system/lib/hw/hwcomposer.mrvl.so
