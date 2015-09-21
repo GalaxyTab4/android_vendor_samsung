@@ -200,3 +200,12 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/degaswifi/proprietary/lib/drm/libdrmwvmplugin.so:system/lib/drm/libdrmwvmplugin.so \
     vendor/samsung/degaswifi/proprietary/lib/libWVStreamControlAPI_L3.so:system/lib/libWVStreamControlAPI_L3.so \
     vendor/samsung/degaswifi/proprietary/lib/libwvdrm_L3.so:system/lib/libwvdrm_L3.so
+
+PRODUCT_COPY_FILES += \
+    vendor/samsung/degaswifi/proprietary/etc/firmware/mrvl/SDIO8887_SDIO_SDIO.bin:system/etc/firmware/mrvl/SDIO8887_SDIO_SDIO.bin \
+    vendor/samsung/degaswifi/proprietary/etc/firmware/mrvl/WlanCalData_ext.conf:system/etc/firmware/mrvl/WlanCalData_ext.conf \
+    vendor/samsung/degaswifi/proprietary/etc/firmware/mrvl/bt_cal_data.conf:system/etc/firmware/mrvl/bt_cal_data.conf \
+    vendor/samsung/degaswifi/proprietary/etc/firmware/mrvl/bt_init_cfg.conf:system/etc/firmware/mrvl/bt_init_cfg.conf \
+    vendor/samsung/degaswifi/proprietary/etc/firmware/mrvl/reg_alpha2:system/etc/firmware/mrvl/reg_alpha2 \
+    vendor/samsung/degaswifi/proprietary/etc/firmware/mrvl/sd8887_uapsta.bin:system/etc/firmware/mrvl/sd8887_uapsta.bin \
+    vendor/samsung/degaswifi/proprietary/etc/firmware/mrvl/txpwrlimit_cfg.bin:system/etc/firmware/mrvl/txpwrlimit_cfg.bin
