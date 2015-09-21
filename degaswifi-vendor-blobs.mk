@@ -144,7 +144,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/degaswifi/proprietary/etc/audio_VR/Tx_ControlParams_VR_WIRED_HEADPHONE_WIDEBAND.txt:system/etc/audio_VR/Tx_ControlParams_VR_WIRED_HEADPHONE_WIDEBAND.txt \
     vendor/samsung/degaswifi/proprietary/etc/audio_VR/Tx_ControlParams_VR_WIRED_HEADSET_WIDEBAND.txt:system/etc/audio_VR/Tx_ControlParams_VR_WIRED_HEADSET_WIDEBAND.txt \
     vendor/samsung/degaswifi/proprietary/etc/camera_profiles.xml:system/etc/camera_profiles.xml \
-    vendor/samsung/degaswifi/proprietary/etc/camera_profiles.xml_for5640:system/etc/camera_profiles.xml_for5640 \
     vendor/samsung/degaswifi/proprietary/lib/hw/camera.mrvl.so:system/lib/hw/camera.mrvl.so \
     vendor/samsung/degaswifi/proprietary/lib/libcameraengine.so:system/lib/libcameraengine.so \
     vendor/samsung/degaswifi/proprietary/lib/libcodecjpegdec.so:system/lib/libcodecjpegdec.so \
@@ -188,7 +187,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/degaswifi/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
     vendor/samsung/degaswifi/proprietary/lib/libmtelif.so:system/lib/libmtelif.so \
     vendor/samsung/degaswifi/proprietary/etc/wifi/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf \
-    vendor/samsung/degaswifi/proprietary/bin/powerdaemon:system/bin/powerdaemon \
     vendor/samsung/degaswifi/proprietary/etc/ams_list.xml:system/etc/ams_list.xml \
     vendor/samsung/degaswifi/proprietary/lib/libPowerSetting.so:system/lib/libPowerSetting.so \
     vendor/samsung/degaswifi/proprietary/lib/hw/gralloc.mrvl.so:system/lib/hw/gralloc.mrvl.so \
