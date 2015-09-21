@@ -63,6 +63,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/degaswifi/proprietary/lib/libceu.so:system/lib/libceu.so \
     vendor/samsung/degaswifi/proprietary/lib/libGAL.so:system/lib/libGAL.so \
     vendor/samsung/degaswifi/proprietary/lib/libgcu.so:system/lib/libgcu.so \
+    vendor/samsung/degaswifi/proprietary/lib/libgputex.so:system/lib/libgputex.so \
+    vendor/samsung/degaswifi/proprietary/lib/libmvmem.so:system/lib/libmvmem.so \
     vendor/samsung/degaswifi/proprietary/etc/asound.conf:system/etc/asound.conf \
     vendor/samsung/degaswifi/proprietary/lib/hw/audio.primary.mrvl.so:system/lib/hw/audio.primary.mrvl.so \
     vendor/samsung/degaswifi/proprietary/lib/hw/audio_path.adda.mrvl.so:system/lib/hw/audio_path.adda.mrvl.so \
