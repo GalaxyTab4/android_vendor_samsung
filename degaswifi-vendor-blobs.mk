@@ -193,13 +193,14 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/degaswifi/proprietary/lib/libPowerSetting.so:system/lib/libPowerSetting.so \
     vendor/samsung/degaswifi/proprietary/lib/hw/gralloc.mrvl.so:system/lib/hw/gralloc.mrvl.so \
     vendor/samsung/degaswifi/proprietary/lib/hw/hwcomposer.mrvl.so:system/lib/hw/hwcomposer.mrvl.so \
-    vendor/samsung/degaswifi/proprietary/lib/libHWComposerGC.so:system/lib/libHWComposerGC.so \
     vendor/samsung/degaswifi/proprietary/lib/hw/lights.mrvl.so:system/lib/hw/lights.mrvl.so \
     vendor/samsung/degaswifi/proprietary/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so \
     vendor/samsung/degaswifi/proprietary/lib/libwvm.so:system/lib/libwvm.so \
     vendor/samsung/degaswifi/proprietary/lib/drm/libdrmwvmplugin.so:system/lib/drm/libdrmwvmplugin.so \
     vendor/samsung/degaswifi/proprietary/lib/libWVStreamControlAPI_L3.so:system/lib/libWVStreamControlAPI_L3.so \
     vendor/samsung/degaswifi/proprietary/lib/libwvdrm_L3.so:system/lib/libwvdrm_L3.so
+
+#    vendor/samsung/degaswifi/proprietary/lib/libHWComposerGC.so:system/lib/libHWComposerGC.so \
 
 PRODUCT_COPY_FILES += \
     vendor/samsung/degaswifi/proprietary/etc/firmware/mrvl/SDIO8887_SDIO_SDIO.bin:system/etc/firmware/mrvl/SDIO8887_SDIO_SDIO.bin \
